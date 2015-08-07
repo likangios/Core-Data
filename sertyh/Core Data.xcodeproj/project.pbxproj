@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FED1B6CE1B7060E600A4B0B8 /* UpdatePersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FED1B6CC1B7060E600A4B0B8 /* UpdatePersonViewController.m */; };
+		FED1B6CF1B7060E600A4B0B8 /* UpdatePersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FED1B6CD1B7060E600A4B0B8 /* UpdatePersonViewController.xib */; };
+		FED54E611B6F36E400DAE41F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FED54E601B6F36E400DAE41F /* main.m */; };
+		FED54E641B6F36E400DAE41F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FED54E631B6F36E400DAE41F /* AppDelegate.m */; };
+		FED54E671B6F36E400DAE41F /* sertyh.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FED54E651B6F36E400DAE41F /* sertyh.xcdatamodeld */; };
+		FED54E6A1B6F36E400DAE41F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FED54E691B6F36E400DAE41F /* ViewController.m */; };
+		FED54E6D1B6F36E400DAE41F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FED54E6B1B6F36E400DAE41F /* Main.storyboard */; };
+		FED54E6F1B6F36E400DAE41F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FED54E6E1B6F36E400DAE41F /* Images.xcassets */; };
+		FED54E721B6F36E400DAE41F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FED54E701B6F36E400DAE41F /* LaunchScreen.xib */; };
+		FED54E7E1B6F36E400DAE41F /* sertyhTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FED54E7D1B6F36E400DAE41F /* sertyhTests.m */; };
+		FED54E8F1B6F38BF00DAE41F /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = FED54E8E1B6F38BF00DAE41F /* User.m */; };
+		FED54E921B6F38C000DAE41F /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = FED54E911B6F38C000DAE41F /* Dog.m */; };
+		FED54E961B6F4C5C00DAE41F /* AddPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FED54E941B6F4C5C00DAE41F /* AddPersonViewController.m */; };
+		FED54E971B6F4C5C00DAE41F /* AddPersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FED54E951B6F4C5C00DAE41F /* AddPersonViewController.xib */; };
+		FED54E991B6F4D6E00DAE41F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FED54E981B6F4D6E00DAE41F /* ViewController.xib */; };
+		FED54E9D1B6F5C1F00DAE41F /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FED54E9B1B6F5C1F00DAE41F /* AddViewController.m */; };
+		FED54E9E1B6F5C1F00DAE41F /* AddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FED54E9C1B6F5C1F00DAE41F /* AddViewController.xib */; };
+		FED54EA21B6F5D7E00DAE41F /* DeleteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FED54EA01B6F5D7E00DAE41F /* DeleteViewController.m */; };
+		FED54EA31B6F5D7E00DAE41F /* DeleteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FED54EA11B6F5D7E00DAE41F /* DeleteViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FED54E781B6F36E400DAE41F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FED54E531B6F36E400DAE41F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FED54E5A1B6F36E400DAE41F;
+			remoteInfo = sertyh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FED1B6CB1B7060E600A4B0B8 /* UpdatePersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdatePersonViewController.h; sourceTree = "<group>"; };
+		FED1B6CC1B7060E600A4B0B8 /* UpdatePersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdatePersonViewController.m; sourceTree = "<group>"; };
+		FED1B6CD1B7060E600A4B0B8 /* UpdatePersonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UpdatePersonViewController.xib; sourceTree = "<group>"; };
+		FED54E5B1B6F36E400DAE41F /* sertyh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sertyh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED54E5F1B6F36E400DAE41F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FED54E601B6F36E400DAE41F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FED54E621B6F36E400DAE41F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FED54E631B6F36E400DAE41F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FED54E661B6F36E400DAE41F /* sertyh.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = sertyh.xcdatamodel; sourceTree = "<group>"; };
+		FED54E681B6F36E400DAE41F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FED54E691B6F36E400DAE41F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FED54E6C1B6F36E400DAE41F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FED54E6E1B6F36E400DAE41F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FED54E711B6F36E400DAE41F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FED54E771B6F36E400DAE41F /* sertyhTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sertyhTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED54E7C1B6F36E400DAE41F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FED54E7D1B6F36E400DAE41F /* sertyhTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sertyhTests.m; sourceTree = "<group>"; };
+		FED54E8D1B6F38BF00DAE41F /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		FED54E8E1B6F38BF00DAE41F /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		FED54E901B6F38C000DAE41F /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		FED54E911B6F38C000DAE41F /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		FED54E931B6F4C5C00DAE41F /* AddPersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPersonViewController.h; sourceTree = "<group>"; };
+		FED54E941B6F4C5C00DAE41F /* AddPersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPersonViewController.m; sourceTree = "<group>"; };
+		FED54E951B6F4C5C00DAE41F /* AddPersonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddPersonViewController.xib; sourceTree = "<group>"; };
+		FED54E981B6F4D6E00DAE41F /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		FED54E9A1B6F5C1F00DAE41F /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		FED54E9B1B6F5C1F00DAE41F /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		FED54E9C1B6F5C1F00DAE41F /* AddViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddViewController.xib; sourceTree = "<group>"; };
+		FED54E9F1B6F5D7E00DAE41F /* DeleteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteViewController.h; sourceTree = "<group>"; };
+		FED54EA01B6F5D7E00DAE41F /* DeleteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteViewController.m; sourceTree = "<group>"; };
+		FED54EA11B6F5D7E00DAE41F /* DeleteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeleteViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FED54E581B6F36E400DAE41F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED54E741B6F36E400DAE41F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FED54E521B6F36E400DAE41F = {
+			isa = PBXGroup;
+			children = (
+				FED54E5D1B6F36E400DAE41F /* sertyh */,
+				FED54E7A1B6F36E400DAE41F /* sertyhTests */,
+				FED54E5C1B6F36E400DAE41F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FED54E5C1B6F36E400DAE41F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FED54E5B1B6F36E400DAE41F /* sertyh.app */,
+				FED54E771B6F36E400DAE41F /* sertyhTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FED54E5D1B6F36E400DAE41F /* sertyh */ = {
+			isa = PBXGroup;
+			children = (
+				FED54E901B6F38C000DAE41F /* Dog.h */,
+				FED54E911B6F38C000DAE41F /* Dog.m */,
+				FED54E8D1B6F38BF00DAE41F /* User.h */,
+				FED54E8E1B6F38BF00DAE41F /* User.m */,
+				FED54E621B6F36E400DAE41F /* AppDelegate.h */,
+				FED54E631B6F36E400DAE41F /* AppDelegate.m */,
+				FED54E681B6F36E400DAE41F /* ViewController.h */,
+				FED54E691B6F36E400DAE41F /* ViewController.m */,
+				FED54E981B6F4D6E00DAE41F /* ViewController.xib */,
+				FED54E931B6F4C5C00DAE41F /* AddPersonViewController.h */,
+				FED54E941B6F4C5C00DAE41F /* AddPersonViewController.m */,
+				FED54E951B6F4C5C00DAE41F /* AddPersonViewController.xib */,
+				FED54E9A1B6F5C1F00DAE41F /* AddViewController.h */,
+				FED54E9B1B6F5C1F00DAE41F /* AddViewController.m */,
+				FED54E9C1B6F5C1F00DAE41F /* AddViewController.xib */,
+				FED54E9F1B6F5D7E00DAE41F /* DeleteViewController.h */,
+				FED54EA01B6F5D7E00DAE41F /* DeleteViewController.m */,
+				FED54EA11B6F5D7E00DAE41F /* DeleteViewController.xib */,
+				FED1B6CB1B7060E600A4B0B8 /* UpdatePersonViewController.h */,
+				FED1B6CC1B7060E600A4B0B8 /* UpdatePersonViewController.m */,
+				FED1B6CD1B7060E600A4B0B8 /* UpdatePersonViewController.xib */,
+				FED54E6B1B6F36E400DAE41F /* Main.storyboard */,
+				FED54E6E1B6F36E400DAE41F /* Images.xcassets */,
+				FED54E701B6F36E400DAE41F /* LaunchScreen.xib */,
+				FED54E651B6F36E400DAE41F /* sertyh.xcdatamodeld */,
+				FED54E5E1B6F36E400DAE41F /* Supporting Files */,
+			);
+			path = sertyh;
+			sourceTree = "<group>";
+		};
+		FED54E5E1B6F36E400DAE41F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FED54E5F1B6F36E400DAE41F /* Info.plist */,
+				FED54E601B6F36E400DAE41F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FED54E7A1B6F36E400DAE41F /* sertyhTests */ = {
+			isa = PBXGroup;
+			children = (
+				FED54E7D1B6F36E400DAE41F /* sertyhTests.m */,
+				FED54E7B1B6F36E400DAE41F /* Supporting Files */,
+			);
+			path = sertyhTests;
+			sourceTree = "<group>";
+		};
+		FED54E7B1B6F36E400DAE41F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FED54E7C1B6F36E400DAE41F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FED54E5A1B6F36E400DAE41F /* sertyh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FED54E811B6F36E400DAE41F /* Build configuration list for PBXNativeTarget "sertyh" */;
+			buildPhases = (
+				FED54E571B6F36E400DAE41F /* Sources */,
+				FED54E581B6F36E400DAE41F /* Frameworks */,
+				FED54E591B6F36E400DAE41F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sertyh;
+			productName = sertyh;
+			productReference = FED54E5B1B6F36E400DAE41F /* sertyh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FED54E761B6F36E400DAE41F /* sertyhTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FED54E841B6F36E400DAE41F /* Build configuration list for PBXNativeTarget "sertyhTests" */;
+			buildPhases = (
+				FED54E731B6F36E400DAE41F /* Sources */,
+				FED54E741B6F36E400DAE41F /* Frameworks */,
+				FED54E751B6F36E400DAE41F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FED54E791B6F36E400DAE41F /* PBXTargetDependency */,
+			);
+			name = sertyhTests;
+			productName = sertyhTests;
+			productReference = FED54E771B6F36E400DAE41F /* sertyhTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FED54E531B6F36E400DAE41F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Luck;
+				TargetAttributes = {
+					FED54E5A1B6F36E400DAE41F = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					FED54E761B6F36E400DAE41F = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = FED54E5A1B6F36E400DAE41F;
+					};
+				};
+			};
+			buildConfigurationList = FED54E561B6F36E400DAE41F /* Build configuration list for PBXProject "Core Data" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FED54E521B6F36E400DAE41F;
+			productRefGroup = FED54E5C1B6F36E400DAE41F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FED54E5A1B6F36E400DAE41F /* sertyh */,
+				FED54E761B6F36E400DAE41F /* sertyhTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FED54E591B6F36E400DAE41F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED1B6CF1B7060E600A4B0B8 /* UpdatePersonViewController.xib in Resources */,
+				FED54E9E1B6F5C1F00DAE41F /* AddViewController.xib in Resources */,
+				FED54E991B6F4D6E00DAE41F /* ViewController.xib in Resources */,
+				FED54E6D1B6F36E400DAE41F /* Main.storyboard in Resources */,
+				FED54EA31B6F5D7E00DAE41F /* DeleteViewController.xib in Resources */,
+				FED54E721B6F36E400DAE41F /* LaunchScreen.xib in Resources */,
+				FED54E6F1B6F36E400DAE41F /* Images.xcassets in Resources */,
+				FED54E971B6F4C5C00DAE41F /* AddPersonViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED54E751B6F36E400DAE41F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FED54E571B6F36E400DAE41F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED54E961B6F4C5C00DAE41F /* AddPersonViewController.m in Sources */,
+				FED54E921B6F38C000DAE41F /* Dog.m in Sources */,
+				FED54E8F1B6F38BF00DAE41F /* User.m in Sources */,
+				FED54E641B6F36E400DAE41F /* AppDelegate.m in Sources */,
+				FED1B6CE1B7060E600A4B0B8 /* UpdatePersonViewController.m in Sources */,
+				FED54E671B6F36E400DAE41F /* sertyh.xcdatamodeld in Sources */,
+				FED54EA21B6F5D7E00DAE41F /* DeleteViewController.m in Sources */,
+				FED54E6A1B6F36E400DAE41F /* ViewController.m in Sources */,
+				FED54E9D1B6F5C1F00DAE41F /* AddViewController.m in Sources */,
+				FED54E611B6F36E400DAE41F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED54E731B6F36E400DAE41F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED54E7E1B6F36E400DAE41F /* sertyhTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FED54E791B6F36E400DAE41F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FED54E5A1B6F36E400DAE41F /* sertyh */;
+			targetProxy = FED54E781B6F36E400DAE41F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FED54E6B1B6F36E400DAE41F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FED54E6C1B6F36E400DAE41F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FED54E701B6F36E400DAE41F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FED54E711B6F36E400DAE41F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FED54E7F1B6F36E400DAE41F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FED54E801B6F36E400DAE41F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FED54E821B6F36E400DAE41F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sertyh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FED54E831B6F36E400DAE41F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sertyh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FED54E851B6F36E400DAE41F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = sertyhTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sertyh.app/sertyh";
+			};
+			name = Debug;
+		};
+		FED54E861B6F36E400DAE41F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = sertyhTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sertyh.app/sertyh";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FED54E561B6F36E400DAE41F /* Build configuration list for PBXProject "Core Data" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED54E7F1B6F36E400DAE41F /* Debug */,
+				FED54E801B6F36E400DAE41F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FED54E811B6F36E400DAE41F /* Build configuration list for PBXNativeTarget "sertyh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED54E821B6F36E400DAE41F /* Debug */,
+				FED54E831B6F36E400DAE41F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FED54E841B6F36E400DAE41F /* Build configuration list for PBXNativeTarget "sertyhTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED54E851B6F36E400DAE41F /* Debug */,
+				FED54E861B6F36E400DAE41F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FED54E651B6F36E400DAE41F /* sertyh.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FED54E661B6F36E400DAE41F /* sertyh.xcdatamodel */,
+			);
+			currentVersion = FED54E661B6F36E400DAE41F /* sertyh.xcdatamodel */;
+			path = sertyh.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FED54E531B6F36E400DAE41F /* Project object */;
+}

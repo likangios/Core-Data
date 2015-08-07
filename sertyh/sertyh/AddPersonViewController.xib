@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddPersonViewController">
+            <connections>
+                <outlet property="Add" destination="Tgk-sx-tF1" id="r1R-cp-u1d"/>
+                <outlet property="AllData" destination="Eh6-eK-lQH" id="ivo-ab-QP8"/>
+                <outlet property="Delete" destination="TPt-RD-s2r" id="8Hi-B0-vhG"/>
+                <outlet property="Update" destination="LdP-Qx-7Jc" id="21d-IW-Lmy"/>
+                <outlet property="tableView" destination="RBe-hI-B3p" id="ZCw-vN-7BU"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eh6-eK-lQH">
+                    <rect key="frame" x="210" y="530" width="60" height="30"/>
+                    <state key="normal" title="所有数据">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="GetAllData:" destination="-1" eventType="touchUpInside" id="aTR-J1-ZM6"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LdP-Qx-7Jc">
+                    <rect key="frame" x="46" y="528" width="62" height="30"/>
+                    <state key="normal" title="修改User">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="UpdateUser:" destination="-1" eventType="touchUpInside" id="cVZ-D1-ikd"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tgk-sx-tF1">
+                    <rect key="frame" x="50" y="478" width="62" height="30"/>
+                    <state key="normal" title="添加User">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="AddUser:" destination="-1" eventType="touchUpInside" id="5CE-Zi-gWQ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TPt-RD-s2r">
+                    <rect key="frame" x="208" y="480" width="62" height="30"/>
+                    <state key="normal" title="删除User">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="DeleteUser:" destination="-1" eventType="touchUpInside" id="RRy-Do-IQf"/>
+                    </connections>
+                </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="RBe-hI-B3p">
+                    <rect key="frame" x="0.0" y="64" width="320" height="404"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="pBR-tP-7rE"/>
+                        <outlet property="delegate" destination="-1" id="RSL-xX-kAr"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="LdP-Qx-7Jc" secondAttribute="bottom" constant="10" id="2RR-PQ-ZvJ"/>
+                <constraint firstItem="RBe-hI-B3p" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="2py-M8-VEW"/>
+                <constraint firstItem="RBe-hI-B3p" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="3Dh-ff-O4I"/>
+                <constraint firstAttribute="trailing" secondItem="RBe-hI-B3p" secondAttribute="trailing" id="Awh-c1-9s4"/>
+                <constraint firstItem="Tgk-sx-tF1" firstAttribute="top" secondItem="RBe-hI-B3p" secondAttribute="bottom" constant="10" id="ENI-M7-IBv"/>
+                <constraint firstItem="LdP-Qx-7Jc" firstAttribute="top" secondItem="Tgk-sx-tF1" secondAttribute="bottom" constant="20" id="MEH-1M-Qm6"/>
+                <constraint firstItem="Eh6-eK-lQH" firstAttribute="top" secondItem="TPt-RD-s2r" secondAttribute="bottom" constant="20" id="ViT-9F-PIA"/>
+                <constraint firstAttribute="trailing" secondItem="TPt-RD-s2r" secondAttribute="trailing" constant="50" id="Xg9-uE-VfY"/>
+                <constraint firstAttribute="bottom" secondItem="Eh6-eK-lQH" secondAttribute="bottom" constant="8" id="Xpf-eY-shU"/>
+                <constraint firstItem="Tgk-sx-tF1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="50" id="gf6-3g-M9d"/>
+                <constraint firstAttribute="trailing" secondItem="Eh6-eK-lQH" secondAttribute="trailing" constant="50" id="hfQ-qV-lGz"/>
+                <constraint firstItem="TPt-RD-s2r" firstAttribute="top" secondItem="RBe-hI-B3p" secondAttribute="bottom" constant="428" id="hg3-XA-gzQ"/>
+                <constraint firstItem="RBe-hI-B3p" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="jTb-3L-ARY"/>
+                <constraint firstItem="LdP-Qx-7Jc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="46" id="nxH-sW-ueq"/>
+                <constraint firstItem="RBe-hI-B3p" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="s5u-yH-qQa"/>
+                <constraint firstAttribute="trailing" secondItem="RBe-hI-B3p" secondAttribute="trailing" id="saf-2p-Nyu"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="2py-M8-VEW"/>
+                    <exclude reference="s5u-yH-qQa"/>
+                    <exclude reference="saf-2p-Nyu"/>
+                    <exclude reference="hg3-XA-gzQ"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="289" y="-23"/>
+        </view>
+    </objects>
+</document>
